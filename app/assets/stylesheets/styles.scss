@@ -1,0 +1,57 @@
+html,body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+.btn{
+  background: inherit;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 10px 10px;
+}
+a:-webkit-any-link {
+  text-decoration: none !important;
+}
+a:visited{
+  color: inherit;
+}
+li{
+  display: block;
+}
+
+.be-red{
+  background: #E74C3C;
+}
+.white{
+  color: #ECF0F1 !important;
+}
+.large-padding{
+  padding: 8px 7px;
+}
+.no-margin{
+  margin: 0px;
+}
+.logo{
+  font-size: 1.2em;
+}
+.field,.top-space,.actions{
+  margin-top: 1em;
+}
+.form-control{
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+  font-size: 1.2em;
+}
+.red{
+  color: red !important;
+}
+
+.text-left{
+  text-align: left;
+}
